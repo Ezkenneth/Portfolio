@@ -1,0 +1,55 @@
+/* This applies from 0px to 600px */
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: url(/assets/imgs/brandi-redd-aJTiW00qqtI-unsplash.jpg);
+   height: 100vh;
+   background-size: cover;
+  background-position: center;
+  margin: 0 0 100px;
+}
+
+.footer {
+   /* Positioning  */
+    position: absolute;
+    bottom: 0;
+
+     /* Box-model  */
+    width: 100%;
+    height: 40px;
+
+    /* / Visual */
+    background-color: #666;
+}
+
+/* This applies from 600px onwards */
+@media (min-width: 600px) {
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    background-image: url(/assets/imgs/brandi-redd-aJTiW00qqtI-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+  background-position: center;
+  margin: 0 0 100px;
+  }
+
+  .footer {
+    /* Positioning  */
+     position: absolute;
+     bottom: 0;
+ 
+      /* Box-model  */
+     width: 100%;
+     height: 40px;
+ 
+     /* / Visual */
+     background-color: #666;
+ }
+}
