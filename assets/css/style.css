@@ -38,6 +38,12 @@ html{
   margin-top: 20px; 
 }
 
+.blurb {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
 .jumbotron {
   border-radius: 25px;
   height: 7.5rem;
@@ -47,6 +53,23 @@ html{
   opacity: 0.78;
  
   
+}
+.selfPort{
+  height: auto;
+  width: 300px;
+  position: relative;
+  /* top: 5px;
+  right: 5px; */
+  border-radius: 25px;
+  margin: 0 auto; 
+  
+}
+
+.selfPort img{
+  width: 100%;
+  height: auto;
+  border-radius: 200px;
+  margin: 0 auto;
 }
 
 .logo{
@@ -226,6 +249,28 @@ h4{
   transform: scale(1.03)
 }
 
+.toolSpace {
+  border-radius: 25px;
+    background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
+    text-align: center;
+    width: 200px;
+    
+    
+}
+
+.spaceWrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.skillSpace {
+  border-radius: 25px;
+    background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
+    text-align: center;
+    width: 200px;
+   
+}
+
 
  @media (min-width: 400px ){
 
@@ -233,6 +278,8 @@ h4{
     display: block;
     font-size: medium;
   }
+
+
  }
 
 
@@ -295,6 +342,8 @@ h4{
     
 
   }
+  
+
   .footer {
     /* Positioning  */
      position: absolute;
@@ -324,6 +373,26 @@ h4{
   
 }
 
+.selfPort{
+  height: auto;
+  width: 350px;
+  position: relative;
+  /* top: 5px;
+  right: 5px; */
+  border-radius: 25px;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+.selfPort img{
+  width: 100%;
+  height: auto;
+  border-radius: 200px;
+  margin: 0 auto;
+}
+
 .card-img {
   border-radius: 25px;
   position: relative;
@@ -337,6 +406,7 @@ h4{
   padding-bottom: 50px;
   font-size: 1.6rem;
 }
+
 
 .carousel-item {
   height: 24rem;
@@ -410,8 +480,34 @@ h4{
   display: 1;
 }
 
+
+
 }
 
+@media (min-width: 999px) {
+  .blurb {
+    display: block;
+  }
+
+  .toolSpace {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
+    text-align: center;
+    width: 200px;
+  }
+  .skillSpace {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
+    text-align: center;
+    width: 200px;
+  }
+}
 /* color: rgb(28, 26, 26);
   background: linear-gradient(90deg, rgb(219, 40, 8) 0%, rgb(119, 0, 255) 100%); */
   /* background: linear-gradient(90deg, rgb(119, 0, 255) 0%, rgb(219, 40, 8) 80%); */
