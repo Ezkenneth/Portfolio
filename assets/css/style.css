@@ -1,15 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+
+body {
+  background-image: url(/assets/imgs/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* This applies from 0px to 600px */
 html{
   position: relative;
   min-height: 100%;
 }
 
-body {
+*{
+  font-family: 'Nova Square', cursive;
+}
+
+.lead{
+  display: none;
+  font-size: small;
+}
+/* body {
   background-image: url(/assets/imgs/brandi-redd-aJTiW00qqtI-unsplash.jpg);
    height: 100vh;
+   position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
    background-size: cover;
   background-position: center;
   margin: 0 0 100px;
+} */
+
+.board {
+  margin-top: 20px; 
+}
+
+.jumbotron {
+  border-radius: 25px;
+  height: 7.5rem;
+  border: solid;
+  color: rgb(28, 26, 26);
+  background: linear-gradient(90deg, rgb(119, 0, 255) 0%, rgb(219, 40, 8) 100%);
+  opacity: 0.78;
+ 
+  
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 25px;
+  
+}
+
+.logo img{
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  
+}
+
+.jumboText{
+ position: relative;
+ bottom: 20px;
+ 
+ 
+
+}
+.card{
+  /* border: ; */
+  /* color: rgb(28, 26, 26); */
+  background: linear-gradient(90deg, rgba(219, 40, 8, 0.452) 0%, rgb(119, 0, 255,0.973) 100%);
+  border-radius: 25px;
+  opacity: 0.78;
+ 
+}
+
+.card-img {
+  border-radius: 25px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.wrapper{ 
+height: 5rem;
 }
 
 .footer {
@@ -20,10 +100,141 @@ body {
      /* Box-model  */
     width: 100%;
     height: 40px;
+   
 
-    /* / Visual */
-    background-color: #666;
+
 }
+
+.cardContainers {
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h4{
+  display: none;
+  border: none;
+  width: 60vw;
+  border-radius: 25px;
+  background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  
+
+}
+
+
+.caroHeader:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(119, 0, 255, 0.973);
+  transition: transform 150ms;
+  transform: scale(1.03)
+  
+  
+ 
+}
+
+.caroContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 30px;
+  font-size: 3vw;
+  
+  
+}
+
+.carousel-item {
+  height: 20rem;
+  width: 80vw;
+  background: black;
+  color: white;
+  position: relative;
+  border-radius: 40px;
+  background-position: center;
+  background-size: cover;
+  left: 10%;
+}
+
+.carousel-control-next{
+  display: none;
+}
+.carousel-control-prev{
+  display: none;
+}
+
+/* .carousel-item:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03)
+} */
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  border-radius: 40px;
+}
+
+.btn { 
+  height: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+  border-radius: 4px;
+}
+
+/* .carousel-indicators {
+  margin-bottom: 50px;
+    
+} */
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03)
+}
+
+.btn:disabled:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.navCol{
+  
+  border: solid;
+  color: rgb(28, 26, 26);
+  background: linear-gradient(90deg, rgb(219, 40, 8) 0%, rgb(119, 0, 255) 100%);
+  border-radius: 5px;
+}
+.nav-link:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03)
+}
+
+
+ @media (min-width: 400px ){
+
+  .lead{
+    display: block;
+    font-size: medium;
+  }
+ }
+
 
 /* This applies from 600px onwards */
 @media (min-width: 600px) {
@@ -32,14 +243,58 @@ body {
     min-height: 100%;
   }
 
+  *{
+    font-family: 'Nova Square', cursive;
+  }
+  
+  
   body {
+    background-image: url(/assets/imgs/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* body {
     background-image: url(/assets/imgs/brandi-redd-aJTiW00qqtI-unsplash.jpg);
     height: 100vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
     background-size: cover;
   background-position: center;
   margin: 0 0 100px;
   }
+   */
+  .jumbotron {
+    border-radius: 25px;
+    height: 10rem;
+    border: solid;
+    /* color: rgb(28, 26, 26); */
+    background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
+    
+  }
+  
+  .jumboText{
+   position: relative;
+   bottom: 20px;
+   
 
+  }
+
+  h4{
+    display: block;
+    border: none;
+    width: 50vw;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
+    text-align: center;
+    margin-bottom: 10px;
+   
+    
+
+  }
   .footer {
     /* Positioning  */
      position: absolute;
@@ -49,7 +304,114 @@ body {
      width: 100%;
      height: 40px;
  
-     /* / Visual */
-     background-color: #666;
+  
  }
+
+ .logo{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  border-radius: 25px;
+  
 }
+
+.logo img{
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  
+}
+
+.card-img {
+  border-radius: 25px;
+  position: relative;
+  margin-top: 30px;
+}
+ .caroContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+  font-size: 1.6rem;
+}
+
+.carousel-item {
+  height: 24rem;
+  width: 100vw;
+  background: black;
+  color: white;
+  position: relative;
+  border-radius: 25px;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(90deg, rgb(119, 0, 255) 0%, rgb(219, 40, 8) 80%);
+  font-size: medium;
+  left: 0;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  opacity: 0.8;
+  border-radius: 25px;
+}
+
+.btn { 
+ 
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03)
+}
+
+.btn:disabled:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.navCol{
+  
+  border: solid;
+  color: rgb(28, 26, 26);
+  background: linear-gradient(90deg, rgba(219, 40, 8, 0.473) 0%, rgb(119, 0, 255) 80%);
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03)
+}
+
+.carousel-control-next{
+  display: 1;
+}
+.carousel-control-prev{
+  display: 1;
+}
+
+}
+
+/* color: rgb(28, 26, 26);
+  background: linear-gradient(90deg, rgb(219, 40, 8) 0%, rgb(119, 0, 255) 100%); */
+  /* background: linear-gradient(90deg, rgb(119, 0, 255) 0%, rgb(219, 40, 8) 80%); */
