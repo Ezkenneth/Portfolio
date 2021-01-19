@@ -17,23 +17,6 @@ html{
   font-family: 'Nova Square', cursive;
 }
 
-.shotsDiv{
-  margin-top: 20px;
-}
-
-.shotsCard {
-  margin: 0 auto;
-  position: relative;
-  border-radius: 25px;
-  margin-bottom: 10px;
-  
-}
-
-.shotsCard img {
-  border-radius: 25px;
-}
-
-
 .lead{
   display: none;
   font-size: small;
@@ -175,7 +158,7 @@ h4{
  
 }
 
-.caroContainer {
+/* .caroContainer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -184,10 +167,10 @@ h4{
   font-size: 3vw;
   
   
-}
+} */
 
-.carousel-item {
-  height: 20rem;
+/* .carousel-item {
+  height: 80vh;
   width: 80vw;
   background: black;
   color: white;
@@ -196,9 +179,9 @@ h4{
   background-position: center;
   background-size: cover;
   left: 10%;
-}
+} */
 
-.carousel-control-next{
+/* .carousel-control-next{
   display: none;
 }
 .carousel-control-prev{
@@ -222,7 +205,7 @@ h4{
   background-size: cover;
   opacity: 0.5;
   border-radius: 40px;
-}
+} */
 
 .btn { 
   height: 3rem;
@@ -438,8 +421,8 @@ h4{
 
 
 .carousel-item {
-  height: 24rem;
-  width: 100vw;
+  /* height: 24rem;
+  width: 100vw; */
   background: black;
   color: white;
   position: relative;
@@ -463,17 +446,6 @@ h4{
   opacity: 0.8;
   border-radius: 25px;
 }
-
-.shotsDiv {
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  
-
-}
-
 
 .btn { 
  
