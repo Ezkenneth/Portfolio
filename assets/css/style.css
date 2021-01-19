@@ -17,6 +17,24 @@ html{
   font-family: 'Nova Square', cursive;
 }
 
+.iconDiv {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.fab {
+  font-size: 4rem;
+}
+
+.fas {
+  font-size: 4rem;
+}
+
+.iconCircle {
+  
+}
+
 .shotsDiv{
   margin-top: 20px;
 }
@@ -99,13 +117,27 @@ html{
   
 }
 
+
+
 .logo img{
   width: 100%;
   height: auto;
   border-radius: 25px;
   
 }
+.logoLarge {
+height: 200px;
+width: 200px;
+position: relative;
+margin: 0 auto;
+}
 
+.logoLarge img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  z-index: -1;  
+}
 .jumboText{
  position: relative;
  bottom: 20px;
