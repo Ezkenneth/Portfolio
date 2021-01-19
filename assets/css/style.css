@@ -1,19 +1,21 @@
+/* Importing google font nova square */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-
-
+/* setting background image */
 body {
-  background-image: url(/assets/imgs/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+  background-image: url(../imgs/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 /* This applies from 0px to 600px */
-html{
+
+html {
   position: relative;
   min-height: 100%;
 }
 
-*{
+* {
   font-family: 'Nova Square', cursive;
 }
 
@@ -31,11 +33,9 @@ html{
   font-size: 4rem;
 }
 
-.iconCircle {
-  
-}
+.iconCircle {}
 
-.shotsDiv{
+.shotsDiv {
   margin-top: 20px;
 }
 
@@ -44,33 +44,21 @@ html{
   position: relative;
   border-radius: 25px;
   margin-bottom: 10px;
-  
 }
 
 .shotsCard img {
   border-radius: 25px;
 }
 
-
-.lead{
+.lead {
   display: none;
   font-size: small;
 }
-/* body {
-  background-image: url(/assets/imgs/brandi-redd-aJTiW00qqtI-unsplash.jpg);
-   height: 100vh;
-   position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-   background-size: cover;
-  background-position: center;
-  margin: 0 0 100px;
-} */
+
+
 
 .board {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .blurb {
@@ -86,72 +74,65 @@ html{
   color: rgb(28, 26, 26);
   background: linear-gradient(90deg, rgb(119, 0, 255) 0%, rgb(219, 40, 8) 100%);
   opacity: 0.78;
- 
-  
 }
-.selfPort{
+
+.selfPort {
   height: auto;
   width: 300px;
   position: relative;
   /* top: 5px;
   right: 5px; */
   border-radius: 25px;
-  margin: 0 auto; 
-  
+  margin: 0 auto;
 }
 
-.selfPort img{
+.selfPort img {
   width: 100%;
   height: auto;
   border-radius: 200px;
   margin: 0 auto;
 }
 
-.logo{
+.logo {
   height: 50px;
   width: 50px;
   position: absolute;
   top: 5px;
   right: 5px;
   border-radius: 25px;
-  
 }
 
-
-
-.logo img{
+.logo img {
   width: 100%;
   height: auto;
   border-radius: 25px;
-  
 }
+
 .logoLarge {
-height: 200px;
-width: 200px;
-position: relative;
-margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: 0 auto;
 }
 
 .logoLarge img {
   border-radius: 50%;
   width: 100%;
   height: auto;
-  z-index: -1;  
+  z-index: -1;
 }
-.jumboText{
- position: relative;
- bottom: 20px;
- 
- 
 
+.jumboText {
+  position: relative;
+  bottom: 20px;
 }
-.card{
+
+.card {
   /* border: ; */
   /* color: rgb(28, 26, 26); */
-  background: linear-gradient(90deg, rgba(219, 40, 8, 0.452) 0%, rgb(119, 0, 255,0.973) 100%);
+  background: linear-gradient(90deg, rgba(219, 40, 8, 0.452) 0%, rgb(119, 0, 255, 0.973) 100%);
   border-radius: 25px;
   opacity: 0.78;
- 
 }
 
 .card-img {
@@ -160,21 +141,17 @@ margin: 0 auto;
   margin-top: 15px;
 }
 
-.wrapper{ 
-height: 5rem;
+.wrapper {
+  height: 5rem;
 }
 
 .footer {
-   /* Positioning  */
-    position: absolute;
-    bottom: 0;
-
-     /* Box-model  */
-    width: 100%;
-    height: 40px;
-   
-
-
+  /* Positioning  */
+  position: absolute;
+  bottom: 0;
+  /* Box-model  */
+  width: 100%;
+  height: 40px;
 }
 
 .cardContainers {
@@ -183,7 +160,7 @@ height: 5rem;
   margin: 0 auto;
 }
 
-h4{
+h4 {
   display: none;
   border: none;
   width: 60vw;
@@ -192,19 +169,13 @@ h4{
   text-align: center;
   position: relative;
   margin: 0 auto;
-  
-
 }
-
 
 .caroHeader:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(119, 0, 255, 0.973);
   transition: transform 150ms;
   transform: scale(1.03)
-  
-  
- 
 }
 
 .caroContainer {
@@ -214,8 +185,6 @@ h4{
   right: 0;
   padding-bottom: 30px;
   font-size: 3vw;
-  
-  
 }
 
 .carousel-item {
@@ -230,19 +199,14 @@ h4{
   left: 10%;
 }
 
-.carousel-control-next{
-  display: none;
-}
-.carousel-control-prev{
+.carousel-control-next {
   display: none;
 }
 
-/* .carousel-item:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
-  transition: transform 150ms;
-  transform: scale(1.03)
-} */
+.carousel-control-prev {
+  display: none;
+}
+
 
 .overlay-image {
   position: absolute;
@@ -256,7 +220,7 @@ h4{
   border-radius: 40px;
 }
 
-.btn { 
+.btn {
   height: 3rem;
   text-align: center;
   margin-bottom: 1rem;
@@ -284,13 +248,13 @@ h4{
   transform: none;
 }
 
-.navCol{
-  
+.navCol {
   border: solid;
   color: rgb(28, 26, 26);
   background: linear-gradient(90deg, rgb(219, 40, 8) 0%, rgb(119, 0, 255) 100%);
   border-radius: 5px;
 }
+
 .nav-link:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
@@ -300,11 +264,9 @@ h4{
 
 .toolSpace {
   border-radius: 25px;
-    background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
-    text-align: center;
-    width: 200px;
-    
-    
+  background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
+  text-align: center;
+  width: 200px;
 }
 
 .spaceWrap {
@@ -312,52 +274,45 @@ h4{
   justify-content: space-evenly;
   margin-bottom: 50px;
 }
+
 .skillSpace {
   border-radius: 25px;
-    background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
-    text-align: center;
-    width: 200px;
-   
+  background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
+  text-align: center;
+  width: 200px;
 }
 
 .skillSpace:hover {
-   box-shadow: 0 0.4rem 1.4rem 0 rgba(177, 8, 244, 0.6);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(177, 8, 244, 0.6);
   transition: transform 150ms;
   transform: scale(1.03)
 }
 
 .toolSpace:hover {
   box-shadow: 0 0.4rem 1.4rem 0 rgba(177, 8, 244, 0.6);
- transition: transform 150ms;
- transform: scale(1.03)
+  transition: transform 150ms;
+  transform: scale(1.03)
 }
-
-
- @media (min-width: 400px ){
-
-  .lead{
+/* apply styles after 400px */
+@media (min-width: 400px) {
+  .lead {
     display: block;
     font-size: medium;
   }
-
-
- }
-
+}
 
 /* This applies from 600px onwards */
+
 @media (min-width: 600px) {
   html {
     position: relative;
     min-height: 100%;
   }
-
-  *{
+  * {
     font-family: 'Nova Square', cursive;
   }
-  
-  
   body {
-    background-image: url(/assets/imgs/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+    background-image: url(../imgs/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -381,17 +336,12 @@ h4{
     border: solid;
     /* color: rgb(28, 26, 26); */
     background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
-    
   }
-  
-  .jumboText{
-   position: relative;
-   bottom: 20px;
-   
-
+  .jumboText {
+    position: relative;
+    bottom: 20px;
   }
-
-  h4{
+  h4 {
     display: block;
     border: none;
     width: 50vw;
@@ -399,168 +349,132 @@ h4{
     background: linear-gradient(90deg, rgba(119, 0, 255, 0.973) 0%, rgba(219, 40, 8, 0.452) 80%);
     text-align: center;
     margin-bottom: 10px;
-   
-    
-
   }
-  
-
   .footer {
     /* Positioning  */
-     position: absolute;
-     bottom: 0;
- 
-      /* Box-model  */
-     width: 100%;
-     height: 40px;
- 
-  
- }
-
- .logo{
-  height: 60px;
-  width: 60px;
-  position: absolute;
-  top: 3px;
-  right: 3px;
-  border-radius: 25px;
-  
-}
-
-.logo img{
-  width: 100%;
-  height: auto;
-  border-radius: 25px;
-  
-}
-
-.selfPort{
-  height: auto;
-  width: 350px;
-  position: relative;
-  /* top: 5px;
+    position: absolute;
+    bottom: 0;
+    /* Box-model  */
+    width: 100%;
+    height: 40px;
+  }
+  .logo {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border-radius: 25px;
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+  .selfPort {
+    height: auto;
+    width: 350px;
+    position: relative;
+    /* top: 5px;
   right: 5px; */
-  border-radius: 25px;
-  align-content: center;
-  align-items: center;
-  margin: 0 auto;
-  
+    border-radius: 25px;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .selfPort img {
+    width: 100%;
+    height: auto;
+    border-radius: 200px;
+    margin: 0 auto;
+  }
+  .card-img {
+    border-radius: 25px;
+    position: relative;
+    margin-top: 30px;
+  }
+  .caroContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    font-size: 1.6rem;
+  }
+  .carousel-item {
+    height: 24rem;
+    width: 100vw;
+    background: black;
+    color: white;
+    position: relative;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(90deg, rgb(119, 0, 255) 0%, rgb(219, 40, 8) 80%);
+    font-size: medium;
+    left: 0;
+  }
+  .overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 25px;
+  }
+  .shotsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+  .btn {
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    border-radius: 4px;
+  }
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03)
+  }
+  .btn:disabled:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  .navCol {
+    border: solid;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgba(219, 40, 8, 0.473) 0%, rgb(119, 0, 255) 80%);
+    border-radius: 5px;
+  }
+  .nav-link:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+    transition: transform 150ms;
+    transform: scale(1.03)
+  }
+  .carousel-control-next {
+    display: 1;
+  }
+  .carousel-control-prev {
+    display: 1;
+  }
 }
-
-.selfPort img{
-  width: 100%;
-  height: auto;
-  border-radius: 200px;
-  margin: 0 auto;
-}
-
-.card-img {
-  border-radius: 25px;
-  position: relative;
-  margin-top: 30px;
-}
- .caroContainer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-bottom: 50px;
-  font-size: 1.6rem;
-}
-
-
-.carousel-item {
-  height: 24rem;
-  width: 100vw;
-  background: black;
-  color: white;
-  position: relative;
-  border-radius: 25px;
-  background-position: center;
-  background-size: cover;
-  background: linear-gradient(90deg, rgb(119, 0, 255) 0%, rgb(219, 40, 8) 80%);
-  font-size: medium;
-  left: 0;
-}
-
-.overlay-image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  opacity: 0.8;
-  border-radius: 25px;
-}
-
-.shotsDiv {
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  
-
-}
-
-
-.btn { 
- 
-  text-align: center;
-  margin-bottom: 1rem;
-  text-decoration: none;
-  color: rgb(28, 26, 26);
-  background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
-  border-radius: 4px;
-}
-
-.btn:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
-  transition: transform 150ms;
-  transform: scale(1.03)
-}
-
-.btn:disabled:hover {
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
-}
-
-.navCol{
-  
-  border: solid;
-  color: rgb(28, 26, 26);
-  background: linear-gradient(90deg, rgba(219, 40, 8, 0.473) 0%, rgb(119, 0, 255) 80%);
-  border-radius: 5px;
-}
-
-.nav-link:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
-  transition: transform 150ms;
-  transform: scale(1.03)
-}
-
-.carousel-control-next{
-  display: 1;
-}
-.carousel-control-prev{
-  display: 1;
-}
-
-
-
-}
-
+/* apply styles after 999 px */
 @media (min-width: 999px) {
   .blurb {
     display: block;
   }
-
   .toolSpace {
     position: fixed;
     bottom: 10%;
@@ -580,6 +494,8 @@ h4{
     width: 200px;
   }
 }
+
 /* color: rgb(28, 26, 26);
   background: linear-gradient(90deg, rgb(219, 40, 8) 0%, rgb(119, 0, 255) 100%); */
-  /* background: linear-gradient(90deg, rgb(119, 0, 255) 0%, rgb(219, 40, 8) 80%); */
+
+/* background: linear-gradient(90deg, rgb(119, 0, 255) 0%, rgb(219, 40, 8) 80%); */
